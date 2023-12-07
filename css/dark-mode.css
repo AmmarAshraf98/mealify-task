@@ -1,0 +1,36 @@
+/* Start Dark Mode For All Site Using Variables */
+:root:has(.mode:checked) body {
+    background-color: #000;
+}
+
+:root:has(.mode:checked) body {
+    --main-color: #bc7b1f;
+    --hover-color: #d18f32;
+    --black-color: #fff;
+    --third-color: #4f4f5a;
+    --second-color: #7f7f90;
+    --bg-gray: #252525;
+    --bg-white: #202020;
+    --nav-bg-color: #171717;
+    --shadow-color: #0000001b;
+    --second-font: 'Inter', sans-serif;
+    --icon-color: #000;
+    --card-p: #9f9f9f;
+}
+
+:root:has(.mode:checked) .contact .details .item {
+    background-color: var(--nav-bg-color);
+}
+
+:root:has(.mode:checked) .contact .details .item h3 {
+    color: #ADADAD;
+}
+
+:root:has(.mode:checked) .navbar .fa-sun {
+    display: block;
+    font-weight: 500;
+}
+
+:root:has(.mode:checked) .navbar .fa-moon {
+    display: none;
+}
